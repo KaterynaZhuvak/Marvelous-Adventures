@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+    font-family: Poppins;
+    background: #0c0b0b;
+    color: white;
+}
+
+ .container {
+   max-width: 335px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0px 20px;
+ }
+  
+
+  @media screen and (min-width: 320px) {
+   
+  }
+
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 708px;
+      padding: 0px 30px;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    .container {
+      max-width: 940px;
+    }
+  };
+
+/* scrin 375 20 678 30 1000 30 */
