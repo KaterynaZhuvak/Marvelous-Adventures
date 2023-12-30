@@ -1,12 +1,16 @@
 body{
-  margin: 0;
+  padding-top: 91px;
     font-family: Poppins;
     background: #0c0b0b;
     color: white;
 }
 
+img {
+  display: block;
+}
+
  .container {
-   max-width: 335px;
+   max-width: 375px;
    margin-left: auto;
    margin-right: auto;
    padding: 0px 20px;
@@ -19,14 +23,16 @@ body{
 
   @media screen and (min-width: 768px) {
     .container {
-      max-width: 708px;
+      max-width: 768px;
       padding: 0px 30px;
     }
   }
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1440px) {
     .container {
-      max-width: 940px;
+      max-width: 1440px;
     }
   };
 
 /* scrin 375 20 678 30 1000 30 */
+
+
