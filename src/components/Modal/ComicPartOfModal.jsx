@@ -22,7 +22,7 @@ const ComicPartOfModal = ({ data, creators, characters }) => {
         </li>
       </ul>
       <h3 className="modal-title title-margin">Creators</h3>
-      <ul>
+      <ul className="creators-wrapper">
         {creators !== null && creators.length >= 1 ? (
           creators.map((item) => (
             <Creators
@@ -41,7 +41,7 @@ const ComicPartOfModal = ({ data, creators, characters }) => {
         )}
       </ul>
       <h3 className="modal-title title-margin">Characters</h3>
-      <ul>
+      <ul className="creators-wrapper">
         {characters !== null && characters.length >= 1 ? (
           characters.map((item) => (
             <Characters

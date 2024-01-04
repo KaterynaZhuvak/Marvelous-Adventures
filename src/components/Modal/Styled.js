@@ -70,7 +70,7 @@ export const StyledModal = styled.div`
 
   .modal-items {
     display: flex;
-    justify-content: space-around;
+    gap: 24px;
   }
 
   .modal-title-item {
@@ -106,5 +106,51 @@ export const StyledModal = styled.div`
     width: 50px;
     height: 50px;
     border-radius: 8px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .modal {
+      width: 600px;
+    }
+
+    .modal-img {
+      width: 332px;
+      height: 445px;
+    }
+
+    .modal-title {
+      font-size: 24px;
+      letter-spacing: -0.48px;
+    }
+
+    .modal-description {
+      font-size: 16px;
+      margin-bottom: 32px;
+    }
+
+    .modal-title-item {
+      font-size: 12px;
+    }
+
+    .modal-items {
+      gap: 32px;
+    }
+
+    .creators-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      margin-bottom: 32px;
+    }
+
+    .creators-wrapper li {
+      flex: 1 0 45%;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .modal {
+      width: 1000px;
+    }
   }
 `;
