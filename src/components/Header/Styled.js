@@ -8,6 +8,7 @@ export const StyledHeader = styled.div`
     top: 0;
     right: 0;
     left: 0;
+    background-color: transparent;
 
   header {
     padding: 20px;

@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const StyledHero = styled.div`
+overflow-x: hidden;
+
   .description-container {
     margin-bottom: 40px;
   }
@@ -41,7 +43,7 @@ export const StyledHero = styled.div`
   .hero-btn {
     border-radius: 1000px;
     border: none;
-    background-color: ${(props) => props.backgroundColor};
+    background-color: ${(props) => props.backgroundcolor};
     display: flex;
     padding: 10px 20px;
     align-items: flex-start;
@@ -64,16 +66,16 @@ export const StyledHero = styled.div`
   .left-img {
     margin-right: auto;
     margin-bottom: 20px;
-    box-shadow: 0px -82px 162px -19px ${(props) => props.backgroundColor};
--webkit-box-shadow: 0px -82px 162px -19px ${(props) => props.backgroundColor};
--moz-box-shadow: 0px -82px 162px -19px ${(props) => props.backgroundColor};
+    box-shadow: 0px -82px 162px -19px ${(props) => props.backgroundcolor};
+-webkit-box-shadow: 0px -82px 162px -19px ${(props) => props.backgroundcolor};
+-moz-box-shadow: 0px -82px 162px -19px ${(props) => props.backgroundcolor};
   }
 
  .right-img {
     margin-left: auto;
-    box-shadow: 0px 80px 162px -19px ${(props) => props.backgroundColor};
--webkit-box-shadow: 0px 80px 162px -19px ${(props) => props.backgroundColor};
--moz-box-shadow: 0px 80px 162px -19px ${(props) => props.backgroundColor};
+    box-shadow: 0px 80px 162px -19px ${(props) => props.backgroundcolor};
+-webkit-box-shadow: 0px 80px 162px -19px ${(props) => props.backgroundcolor};
+-moz-box-shadow: 0px 80px 162px -19px ${(props) => props.backgroundcolor};
   }
 
   .character-container {

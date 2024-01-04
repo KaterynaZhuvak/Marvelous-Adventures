@@ -3,7 +3,7 @@ import { StyledHero } from "./Styled";
 
 const Slide = ({ color, characterDescription, img1, img2 }) => {
   return (
-    <StyledHero backgroundColor={color}>
+    <StyledHero backgroundcolor={color}>
       <div className="description-container">
         <p className="web-description">Web-based platform</p>
         <h1 className="hero-title">Marvelous Adventures</h1>
